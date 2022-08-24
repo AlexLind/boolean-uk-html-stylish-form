@@ -17,19 +17,19 @@
             <div class="input name">
               <label>
               Your name:
-              <input type="name" placeholder="Enter your name">
+              <input type="name" placeholder="Enter your name" minlength="1" required>
             </label>
           </div> <hr>
           <div class="input email">
             <label>
               Email:
-              <input type="email" placeholder="Enter your email address">
+              <input type="email" placeholder="Enter your email address" required>
             </label>
           </div> <hr>
           <div class="input service">
             <label>
               Needed Services:
-              <select name="services">
+              <select name="services" required>
                 <option value="" disabled selected>Choose Services</option>
                 <option value="Cleaning">Cleaning</option>
                 <option value="Babysitting">Babysitting</option>
@@ -40,7 +40,7 @@
           <div class="input budget">
             <label>
               Budget:
-              <select name="budget">
+              <select name="budget" required>
                 <option value="" disabled selected>Select Budget</option>
                 <option value="less-than-100">Below 100$ </option>
                 <option value="more-than-100">Above 100$</option>
