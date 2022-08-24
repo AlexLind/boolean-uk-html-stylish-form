@@ -39,6 +39,12 @@ input, label, select, textarea{
     display: block;
     margin: 20px 0px;
     border: 0;
+    width: 100%;
+}
+
+select {
+    font-size: larger;
+    font-weight: 600;
 }
 
 button {
